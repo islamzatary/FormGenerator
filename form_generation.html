@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Form Generation</title>
+<script type="text/javascript" language="javascript" src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" language="javascript" src="js/main-js.js"></script>
+<script type="text/javascript" language="javascript" src="js/FromGeneration.jquery.js"></script>
+<style type="text/css">
+#submit-alert-message {
+	background:#CCCCCC;
+	color:#CC0006;
+	text-align:center;
+	padding:35px 0;
+	border-radius:5px;
+	position:fixed;
+	top:0;
+	width:99%;
+	opacity:0.9;
+	box-shadow:3px 3px 1px #888888;
+}
+.hide{display:none;}
+</style>
+</head>
+<body id="en">
+<div id="submit-alert-message" class="hide"></div>
+<div id="wrapper">
+	<div id="content">
+        <button name="form_submit" title="" class="fg-create_mission">Generate Form</button>
+        <div id="loading" style="display:none;"><img src="images/ajax-loader.gif" alt="" /></div>
+        <div class="create_mission"></div>
+     </div>
+</div>
+<script type="text/javascript" language="javascript">
+$("button.fg-create_mission").FromGeneration({JsonName: 'json/form_data.json'});
+</script>
+</body>
+</html>
