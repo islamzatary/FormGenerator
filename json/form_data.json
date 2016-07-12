@@ -30,7 +30,7 @@
 {
 	"id" : "mission_options",
 	"element_type" : "select",
-	"fname" : "missin_options",
+	"fname" : "form_options",
 	"ftype" :  "",
 	"class" : "",
 	"js" : "",
@@ -44,7 +44,7 @@
 {
 	"id" : "mission_types",
 	"element_type" : "select",
-	"fname" : "mission_types",
+	"fname" : "form_types",
 	"ftype" :  "",
 	"class" : "",
 	"js" : "",
