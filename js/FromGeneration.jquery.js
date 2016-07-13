@@ -7,7 +7,7 @@
 		  'AjaxSuccessMsg' : 'Success',
 		}, options);
 		
-		return this.live("click", function(){
+		return this.on("click", function(){
 			var form_id = $(this).attr('class').replace("fg-","");
 			var form_output = "<form id='"+form_id+"'>";
 			$.getJSON(''+settings.JsonName+'', function (data) {
@@ -89,7 +89,7 @@ function ajax_request(method,form_id){
 		}
 	});
 }
-$("button[class^='fg-submit-']").live("click",function(){
+$("button[class^='fg-submit-']").on("click",function(){
 	var form_id = $(this).attr('class').replace("fg-submit-","");
 	console.log(form_id);
 	//check_valid();// this will be taken from main js file
