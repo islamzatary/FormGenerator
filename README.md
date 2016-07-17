@@ -1,7 +1,7 @@
 LegoForm.
 =============
 
-[Live Demo](http://islamzatary.com/projects/FormGenerator/form_generation.html).
+[Live Demo](http://islamzatary.com/projects/legoform/lego_form.html).
 
 Dependencies:
 
