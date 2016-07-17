@@ -28,7 +28,7 @@
 		"req" : "req"
 	},
 	{
-		"id" : "mission_options",
+		"id" : "form_options",
 		"element_type" : "select",
 		"fname" : "form_options",
 		"ftype" :  "",
@@ -42,7 +42,7 @@
 		"req" : "req"
 	},
 	{
-		"id" : "mission_types",
+		"id" : "form_types",
 		"element_type" : "select",
 		"fname" : "form_types",
 		"ftype" :  "",
@@ -55,7 +55,6 @@
 		"label" : "",
 		"req" : "req"
 	},
-
 	{
 		"id" : "missin_details",
 		"element_type" : "textarea",

@@ -43,7 +43,7 @@
 			$.ajaxSetup({
 				async: false
 			});
-			$.getJSON(''+tableName+'.json', function (data) {
+			$.getJSON('json/'+tableName+'.json', function (data) {
 				DropDown_html += '<select name="'+elemName+'" class="'+elemClass+'">';
 				if(defaultVal) {
 					 DropDown_html += '<option vlaue=" ">' + defaultVal + '</option>';
