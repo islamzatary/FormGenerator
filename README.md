@@ -1,4 +1,4 @@
-FormGenerator.
+LegoForm.
 =============
 
 [Live Demo](http://islamzatary.com/projects/FormGenerator/form_generation.html).

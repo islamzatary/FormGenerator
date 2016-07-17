@@ -55,6 +55,7 @@
 		"label" : "",
 		"req" : "req"
 	},
+
 	{
 		"id" : "missin_details",
 		"element_type" : "textarea",
